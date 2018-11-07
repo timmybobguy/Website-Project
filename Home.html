@@ -4,25 +4,32 @@
   <title> CHANGE </title>
   <!-- Source files -->
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/menu.css">
+  <script src="js/navigation.js"></script>
 
 </head>
-<body>
+
+<body class="container">
 
 <header>
-  test
+  <span id="menu-button" onclick="openNav()">&#9776;</span>
 </header>
 
-<nav>
-  test
+<nav id="mobile-nav">
+  <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Projects</a></li>
+      <li><a href="#">Blog</a></li>
+  </ul>
+  <a href="javascript:void(0)" id="close-button" onclick="closeNav()">&times;</a>
 </nav>
 
 <main>
   test
 </main>
 
-<aside>
-  test
-</aside>
+
 
 <footer>
   test
