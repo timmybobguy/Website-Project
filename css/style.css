@@ -11,3 +11,13 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, f
 }
 
 /* == END BROWSER RESET =========================================== */
+
+html {
+  display: grid;
+  flex-direction: column;
+}
+
+body {
+  color: red;
+
+}
