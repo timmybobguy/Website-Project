@@ -2,6 +2,7 @@
 
 
 nav {
+
     height: 100%; /* 100% Full-height */
     width: 0; /* 0 width - change this with JavaScript */
     position: fixed; /* Stay in place */
@@ -10,23 +11,23 @@ nav {
     left: 0;
     background-color: #dedede;
     overflow-x: hidden; /* Disable horizontal scroll */
-    padding-top: 60px; /* Place content 60px from the top */
+    /* padding-top: 30px;  Place content 60px from the top  */
     transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
 }
 
 nav ul {
     list-style-type: none;
-    border-top: 1px solid #fff;
-	white-space: nowrap;
+	  white-space: nowrap;
+
 }
 
 nav li {
     line-height: 1.2;
-    border-bottom: 1px solid #fff;	
+    border-bottom: 1px solid #fff;
 }
 
 nav li:hover, nav li.current {
-	background-color: #bfbf30;
+	background-color: #808080;
 }
 
 nav a {
@@ -39,7 +40,7 @@ nav a {
 }
 
 nav li.current a, nav a:hover {
-    color: #fff;
+    color: #ffffff;
 }
 
 /* Position and style the close button (top right corner) */
@@ -59,7 +60,7 @@ nav li.current a, nav a:hover {
     cursor: pointer;
     line-height: 1;
     padding: 0.25em;
-	
+
 	/* If the menu button should scroll with the page, change the position to fixed and adjust its top and right position to 0. */
     position: absolute;
     top: 0.5rem;
@@ -71,8 +72,8 @@ nav li.current a, nav a:hover {
 }
 
 /* ADJUST THE MEDIA QUERY WIDTH TO SUIT */
-@media screen and (min-width: 60rem) {
-    
+@media screen and (min-width: 30rem) {
+
     nav {
         display: block;
         position: static;
@@ -81,17 +82,21 @@ nav li.current a, nav a:hover {
         transition: none;
         margin-bottom: 1em;
     }
-    
+
     #mobile-nav {
-        max-width: 100%;        
+        max-width: 100%;
     }
-    
+
     nav ul {
         display: flex;
+        justify-content: center;
     }
-    
+    nav li {
+      text-align: center;
+    }
+
     #menu-button, #close-button {
         display: none;
     }
-    
+
 }
