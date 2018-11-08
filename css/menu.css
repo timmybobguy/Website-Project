@@ -72,7 +72,7 @@ nav li.current a, nav a:hover {
 }
 
 /* ADJUST THE MEDIA QUERY WIDTH TO SUIT */
-@media screen and (min-width: 30rem) {
+@media screen and (min-width: 50rem) {
 
     nav {
         display: block;
@@ -98,5 +98,4 @@ nav li.current a, nav a:hover {
     #menu-button, #close-button {
         display: none;
     }
-
 }
