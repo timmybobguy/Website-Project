@@ -36,7 +36,7 @@ main {
   padding: 1.5rem;
   grid-row: 3;
   grid-column: 1 / 4;
-  font-size: 1.125rem; 
+  font-size: 1.125rem;
 }
 
 
@@ -61,5 +61,12 @@ img {
   main {
 	padding-left: 6em;
     padding-right: 6em;
+  }
+}
+
+@media (min-width: 51rem) {
+  main {
+    padding-left: 9em;
+    padding-right: 9em;
   }
 }
