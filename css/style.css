@@ -23,6 +23,9 @@ img {
 
 }
 
+p {
+  padding: 1rem 1rem 1rem 1rem;
+}
 
 header {
   grid-column: span 3;
